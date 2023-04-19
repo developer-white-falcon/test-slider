@@ -1,0 +1,233 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #3498db;
+  display: grid;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+
+}
+
+h3 {
+  background: #fff;
+  color: #3498db;
+  font-size: 36px;
+  line-height: 100px;
+  margin: 10px;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+}
+
+.carousel__container{
+  display: grid;
+  position: relative;
+
+  width: 90vw;
+  height: 48vh;
+  background-color: rgb(255, 98, 98);
+
+
+}
+
+
+.carousel__item{
+  display: grid;
+  position: relative;
+  background-color: rgb(255, 0, 0);
+
+ 
+  width: 1px;
+  height: 1px; 
+  bottom: 2vh;
+
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+  
+}
+
+
+.carousel__item__two{
+    display: grid;
+  position: relative;
+  background-color: rgb(255, 0, 0);
+  grid-template-columns: repeat(2, 1fr);
+
+ 
+  width: 1px;
+  height: 1px; 
+  bottom: 2vh;
+ 
+}
+
+.carousel__item__three{
+     display: grid;
+  position: relative;
+  background-color: rgb(255, 0, 0);
+  grid-template-columns: repeat(1, 1fr);
+
+ 
+  width: 1px;
+  height: 1px; 
+  bottom: 2vh;
+
+}
+
+
+
+.carousel__item__four{
+     display: grid;
+  position: relative;
+  background-color: rgb(255, 0, 0);
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+ 
+  width: 1px;
+  height: 1px; 
+  bottom: 2vh;
+
+}
+
+/*--------------------------*/
+
+.carousel__element__one{
+  display: grid;
+  position: relative;
+  background-color: rgb(19, 13, 18);
+
+
+ 
+  width: 45vw;
+  height: 25vh; 
+
+  
+}
+
+.carousel__element__two{
+  display: grid;
+  position: relative;
+  background-color: rgb(16, 0, 87);
+
+  top: 25vh;
+  right: 22.5vw;
+  width: 22.5vw;
+  height: 25vh; 
+
+  opacity: 0.5;
+
+ 
+}
+
+
+
+
+.carousel__element__three{
+  display: grid;
+  position: relative;
+  background-color: rgb(36, 16, 49);
+
+
+
+  width: 22.5vw;
+  height: 25vh; 
+
+  z-index: 100; 
+
+ 
+}
+
+.carousel__element__four{
+  display: grid;
+  position: relative;
+  background-color: rgb(40, 110, 112);
+
+  top: 0vh;
+  
+  width: 22.5vw;
+  height: 49vh; 
+
+} 
+
+.carousel__element__five {
+  display: grid;
+  position: relative;
+  background-color: rgb(160, 141, 32);
+
+  top: 0vh;
+  
+  width: 22.5vw;
+  height: 25vh; 
+
+}
+
+.carousel__element__six{
+  display: grid;
+  position: relative;
+  background-color: rgb(2, 61, 39);
+
+  top: 0vh;
+  
+  width: 22.5vw;
+  height: 25vh; 
+} 
+
+
+.carousel__element__seven{
+   display: grid;
+  position: relative;
+  background-color: rgb(6, 2, 61);
+
+ top: 0vh;
+ 
+  width: 22.5vw;
+  height: 49vh; 
+}
+
+.carousel__element__eight {
+  display: grid;
+  position: relative;
+  background-color: rgb(100, 64, 10);
+
+  top: 0vh;
+  
+  width: 22.5vw;
+  height: 25vh; 
+
+}
+
+.carousel__element__nine{
+  display: grid;
+  position: relative;
+  background-color: rgb(255, 0, 242);
+
+  top: 0vh;
+  
+  width: 22.5vw;
+  height: 25vh; 
+} 
+
+.carousel__element__ten{
+  display: grid;
+  position: relative;
+  background-color: rgb(0, 225, 255);
+
+  top: 0vh;
+ 
+  width: 22.5vw;
+  height: 49vh; 
+} 
