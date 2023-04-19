@@ -33,8 +33,7 @@ body {
   top: 0vh;
   width: 45vw;
   height: 25vh; 
- background-color: rgb(59, 56, 56);
-  
+ background-color: rgb(59, 56, 56);  
 }
 
 .carousel__item__two{
@@ -104,7 +103,6 @@ body {
   top: 0vh;  
   width: 22.5vw;
   height: 49vh; 
-
 } 
 
 .carousel__element__five {
@@ -125,7 +123,6 @@ body {
   height: 25vh; 
 } 
 
-
 .carousel__element__seven{
   display: grid;
   position: relative;
@@ -142,7 +139,6 @@ body {
   top: 0vh;  
   width: 22.5vw;
   height: 25vh; 
-
 }
 
 .carousel__element__nine{
@@ -163,9 +159,7 @@ body {
   height: 49vh; 
 } 
 
-
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
-
 
 .carousel__item__one{
   display: grid;
@@ -450,7 +444,6 @@ body {
 }
 
 
-
 @media screen and  (max-width: 768px) {
 
 .carousel__item__one{
@@ -461,10 +454,8 @@ body {
   top: 0vh;
   width: 90vw;
   height: 49vh; 
-  background-color: rgb(59, 56, 56);
-  
+  background-color: rgb(59, 56, 56);  
 }
-
 
 .carousel__item__two{
   display: grid;
