@@ -5,36 +5,26 @@ $(".autoplay").slick({
   slidesToShow: 4,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 1000
-});
-
-
-
-$('.responsive').slick({
-  dots: true,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 4,
-  slidesToScroll: 4,
+  autoplaySpeed: 1000,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1280,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: true,
         dots: true
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 1024,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 1
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 768,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
@@ -45,5 +35,5 @@ $('.responsive').slick({
     // instead of a settings object
   ]
 });
-				
 
+ 
